@@ -19,3 +19,11 @@ function getgrade() {
    alert("Student's grade is " + grade);
    return   
 }
+
+function forloop () {
+   var user_input = prompt("What number shall we count to?", user_input);
+   for (var i = 0; i <= user_input; ++i) {
+      alert(i)
+   }
+   return
+}
